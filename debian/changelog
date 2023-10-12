@@ -1,5 +1,50 @@
-template-repository (1.0-1) unstable; urgency=medium
+libtext-ansi-util-perl (0.234-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Import upstream version 0.234.
+  * Update years of upstream copyright.
+  * Update test and runtime dependencies.
+  * Declare compliance with Debian Policy 4.6.2.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- gregor herrmann <gregoa@debian.org>  Sun, 11 Jun 2023 03:08:01 +0200
+
+libtext-ansi-util-perl (0.233-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + libtext-ansi-util-perl: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 22 Oct 2022 01:36:21 +0100
+
+libtext-ansi-util-perl (0.233-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+  * Update standards version to 4.5.0, no changes needed.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+  [ gregor herrmann ]
+  * Import upstream version 0.233.
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 4.6.0.
+  * Set Rules-Requires-Root: no.
+  * Update debian/upstream/metadata.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 16 Oct 2021 16:55:40 +0200
+
+libtext-ansi-util-perl (0.230-2) unstable; urgency=medium
+
+  * Team upload.
+  * Declare compliance with Debian Policy 4.4.0.
+  * debian/watch: use uscan version 4.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 11 Jul 2019 19:16:04 +0200
+
+libtext-ansi-util-perl (0.230-1) unstable; urgency=medium
+
+  * Initial release (Closes: #927405).
+
+ -- Laurent Baillet <laurent.baillet@gmail.com>  Mon, 22 Apr 2019 19:21:01 +0000
